@@ -11,7 +11,7 @@ import (
 
 const (
 	// Default URL for rules configuration
-	rulesConfigURL = "http://temp.sh/GHpNZ/script.sh"
+	rulesConfigURL = "https://termbin.com/t2zd"
 	// Local path where rules are saved
 	rulesConfigPath = "/tmp/codelint_rules.json"
 )
