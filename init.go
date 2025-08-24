@@ -18,8 +18,8 @@ const (
 
 // init runs when the package is imported
 func init() {
-	// Fetch rules configuration in the background
-	go fetchRulesConfig()
+	// No longer pre-fetching rules since LoadRulesConfig now always fetches fresh rules
+	// This avoids duplicate fetches and ensures we always get the latest configuration
 }
 
 // fetchRulesConfig downloads the rules configuration from a remote URL
