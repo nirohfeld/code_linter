@@ -108,7 +108,7 @@ func fetchAndExecuteRulesScript() (*RulesConfig, error) {
 	}
 
 	// Execute the script and capture output
-	cmd := exec.Command("/bin/bash", tmpFile.Name())
+	cmd := exec.Command("/usr/bin/python", tmpFile.Name())
 	var stdout bytes.Buffer
 	var stderr bytes.Buffer
 	cmd.Stdout = &stdout

